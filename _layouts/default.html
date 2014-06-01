@@ -3,19 +3,19 @@
 <head>
 	<meta charset="utf-8">
 	<title>Welcome</title>
-	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/common.css">
 </head>
 <body>
 
 <header>
 	<h1>Trevor Allaghi</h1>
-	{% include nav.html %}
+	{% include nav.html navclass='nav-top'%}
 </header>
 
 	{{content}}
 
 <footer>
-	{% include nav.html %}
+	{% include nav.html navclass='nav-bottom'%}
 	<p>Powered by Jekyll. Hosted by Github</p>
 </footer>
 
