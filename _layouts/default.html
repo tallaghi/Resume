@@ -3,20 +3,21 @@
 <head>
 	<meta charset="utf-8">
 	<title>Welcome</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css">
 </head>
 <body>
 
 <header>
 	<h1>Trevor Allaghi</h1>
-	<nav>
-		<ul>
-			<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-			<li><a href="{{site.baseurl}}/contact.html">Contact</a></li>
-		</ul>
-	</nav>
+	{% include nav.html %}
 </header>
 
 	{{content}}
+
+<footer>
+	{% include nav.html %}
+	<p>Powered by Jekyll. Hosted by Github</p>
+</footer>
 
 </body>
 </html>
