@@ -1,5 +1,24 @@
 ---
 layout: default
 ---
+<div id="contactForm">
+	<h1>Contact me!</h1>
 
-<h1>Contact me!</h1>
+	<form action="contact.php" method="post">
+
+		<label>Name:</label>
+		<input type="text" name="name" />
+
+		<label>Email:</label>
+		<input type="text" name="email" />
+
+		<label>Message:</label>
+		<textarea name="message" rows="20" cols="20"></textarea>
+		<input type="submit" class="submit" name="submit" 
+			value="Send message" />
+
+	</form>
+
+
+
+</div>
