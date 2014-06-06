@@ -2,7 +2,13 @@ html{
 	margin:0;
 	padding:0;
 
-	font: normal 100%/1.4 Georgia,serif;
+	font: normal 100%/1.4 Helvetica,arial, sans-serif;
+}
+body{
+	width: 70%;
+}
+a:link{
+	text-decoration: none;
 }
 .nav-top, .nav-bottom{
 	display: inline;
@@ -56,4 +62,17 @@ html{
 #contactForm .error {
   color: #ff0000;
   margin-left: 115px;
+}
+
+/*end percentage edit*/
+
+.resumeList h3{
+	font-style: italic;
+}
+.noBulletList{
+	list-style-type: none;
+	padding-bottom: 1%;
+}
+#resumeContactLink{
+
 }
